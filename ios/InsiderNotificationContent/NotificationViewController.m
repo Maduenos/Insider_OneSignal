@@ -9,7 +9,7 @@
 @end
 
 // DO NOT FORGET to change this to your app group
-static NSString *APP_GROUP = @"group.com.useinsider.iGurmeV3";
+static NSString *APP_GROUP = @"group.com.company.extension";
 
 @implementation NotificationViewController
 
