@@ -74,33 +74,4 @@ PushNotification.configure({
   requestPermissions: true,
 });
 
-// Notifications.registerRemoteNotifications();
-//
-//     Notifications.events().registerRemoteNotificationsRegistered((event: Registered) => {
-//         // TODO: Send the token to my server so it could send back push notifications...
-//         console.log("Device Token Received", event.deviceToken);
-//     });
-//     Notifications.events().registerRemoteNotificationsRegistrationFailed((event: RegistrationError) => {
-//         console.error(event);
-//     });
-//
-// Notifications.events().registerNotificationReceivedForeground((notification, completion) => {
-//   console.log('Notification Received - Foreground', notification)
-//   // Calling completion on iOS with `alert: true` will present the native iOS inApp notification.
-//   completion({ alert: false, sound: false, badge: false })
-// })
-//
-// Notifications.events().registerNotificationReceivedBackground((notification, completion) => {
-//   console.log('Notification Received - Background', notification)
-//
-//   // Calling completion on iOS with `alert: true` will present the native iOS inApp notification.
-//   completion({ alert: true, sound: true, badge: false })
-// })
-//
-// Notifications.getInitialNotification()
-//     .then(notification => {
-//       console.log('Initial notification was:', notification || 'N/A')
-//     })
-//     .catch(err => console.error('getInitialNotifiation() failed', err))
-
 AppRegistry.registerComponent(appName, () => App);
